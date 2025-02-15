@@ -1,0 +1,37 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+CNC Laser Cutting Optimization Tool
+
+2. What real-world problem will your program address or help to solve?
+The program will help optimize the cutting process for iron pieces used in assembling chairs and tables. 
+It will calculate the number of parts that can be cut from a standard 6000 mm iron bar, considering varying sizes and optimize cutting time.
+
+3. What will you learn from developing this program?
+You will gain a deeper understanding of programming logic and optimization techniques specific to CNC laser cutting operations. 
+This includes managing material efficiency, minimizing waste, and optimizing production schedules.
+
+4. What Python modules will your program use?
+csv
+math (for calculations)
+datetime (for handling dates and times, if needed
+
+5. List the names of functions you will need?
+
+calculate_pieces_per_bar(bar_length, piece_length): Calculates the number of pieces that can be cut from a given bar length based on the size of each piece.
+calculate_bars_needed(desired_pieces, pieces_per_bar): Determines the number of bars needed to cut a specified number of pieces based on the calculated pieces per bar.
+calculate_total_time(bars_needed, time_per_bar_minutes): Calculates the total cutting time required based on the number of bars needed and the time per bar.
+
+6. List the names of the test functions you will write.
+test_calculate_pieces_per_bar: Tests the calculate_pieces_per_bar function with different inputs to ensure accurate calculation of pieces per bar.
+test_calculate_bars_needed: Tests the calculate_bars_needed function to verify it correctly calculates the number of bars required for a given number of pieces.
+test_calculate_total_time: Tests the calculate_total_time function to ensure it accurately computes the total cutting time based on the number of bars and time per bar

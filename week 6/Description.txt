@@ -1,0 +1,44 @@
+Description of Work for the Program
+Function Names:
+main(): Coordinates the overall flow of the program, including reading data, getting user input, and calculating and displaying results.
+read_dictionary(filename): Reads a CSV file and returns a dictionary with part names as keys and their sizes and times as values.
+calculate_number_of_pieces(bar_length, part_size): Calculates the number of pieces of a given size that can be cut from a bar of a specified length.
+calculate_required_bars(desired_number_of_pieces, pieces_per_bar): Determines the number of bars required to meet the desired number of pieces.
+calculate_total_time(required_bars, time_per_bar_minutes): Computes the total time needed to cut the required number of bars.
+
+
+Test Function Names:
+test_calculate_number_of_pieces()
+test_calculate_required_bars()
+test_calculate_total_time()
+test_read_dictionary()
+
+Documentation and Learning Resources:
+Documentation:
+Python official documentation for built-in functions and modules (csv, math).
+Online resources or tutorials about CSV file handling in Python.
+Videos:
+Videos on using the csv module in Python.
+Tutorials on basic file I/O and data processing in Python.
+Coding Experiments:
+Experimenting with reading and parsing CSV files.
+Testing different methods for calculating the number of pieces per bar and the total cutting time.
+Ensuring that time calculations are correctly converted into hours and minutes.
+
+Description of Work Completed:
+
+Function Implementation:
+Implemented the main() function to manage the program flow.
+Developed read_dictionary() to handle CSV file reading and data extraction.
+Created calculate_number_of_pieces() to compute the number of pieces that can be cut from a bar.
+Added calculate_required_bars() to determine how many bars are needed based on the number of pieces.
+Implemented calculate_total_time() to compute the total cutting time required.
+
+Program Logic:
+Integrated functions to handle user inputs and display results.
+Added error handling for file operations to make the program more robust.
+Included time formatting to show results in both minutes and hours.
+Testing:
+
+Conducted manual tests to ensure each function performs as expected.
+Verified the correctness of calculations and output formatting.
